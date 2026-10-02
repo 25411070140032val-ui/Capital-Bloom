@@ -1,0 +1,437 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Deep Emerald App Icon Background -->
+    <radialGradient id="bgGrad" cx="50%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#0f3d36" />
+      <stop offset="55%" stop-color="#082925" />
+      <stop offset="100%" stop-color="#051817" />
+    </radialGradient>
+
+    <!-- Luminous Jade & Mint Circular Ring -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+
+    <!-- Hummingbird Crown, Back & Tail Gradient (Mint -> Turquoise -> Deep Teal) -->
+    <linearGradient id="birdBodyGrad" x1="20%" y1="10%" x2="80%" y2="95%">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="40%" stop-color="#14b8a6" />
+      <stop offset="80%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+
+    <!-- Hummingbird Primary Wing Gradient (Golden-Green -> Emerald -> Cyan) -->
+    <linearGradient id="wingUpperGrad" x1="0%" y1="0%" x2="100%" y2="85%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="30%" stop-color="#4ade80" />
+      <stop offset="70%" stop-color="#0d9488" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+
+    <linearGradient id="wingMidGrad" x1="0%" y1="0%" x2="100%" y2="90%">
+      <stop offset="0%" stop-color="#86efac" />
+      <stop offset="50%" stop-color="#14b8a6" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Hummingbird Warm Cream Belly Gradient -->
+    <linearGradient id="bellyGrad" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="65%" stop-color="#fde68a" />
+      <stop offset="100%" stop-color="#99f6e4" />
+    </linearGradient>
+
+    <!-- Coral & Rose Lotus Blossom Petals -->
+    <linearGradient id="petalGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#ffe4e6" />
+      <stop offset="45%" stop-color="#fb7185" />
+      <stop offset="100%" stop-color="#be123c" />
+    </linearGradient>
+
+    <linearGradient id="petalSideGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fecdd3" />
+      <stop offset="55%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#9f1239" />
+    </linearGradient>
+
+    <!-- Golden Coin Gradient -->
+    <linearGradient id="goldGrad" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="45%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+
+    <linearGradient id="goldInnerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#fef08a" />
+    </linearGradient>
+
+    <!-- Wordmark Warm Cream-Blush Face Gradient -->
+    <linearGradient id="wordmarkFaceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDF0EC" />
+      <stop offset="50%" stop-color="#F6DDD6" />
+      <stop offset="100%" stop-color="#EBCAC1" />
+    </linearGradient>
+
+    <!-- Soft Drop Shadow -->
+    <filter id="dropShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#020d0c" flood-opacity="0.6" />
+    </filter>
+
+    <!-- Exact Vector Slab-Serif Geometry for "CAPITAL BLOOM" Wordmark -->
+    <g id="capital-bloom-glyphs" fill-rule="evenodd" clip-rule="evenodd">
+      <!-- ================= TOP ARCHED ROW: "C A P I T A L" ================= -->
+      <!-- C -->
+      <g transform="translate(159, 371) rotate(-9)">
+        <path d="M14 -17 H-4 C-11 -17 -15 -12 -15 -5 V5 C-15 12 -11 17 -4 17 H14 V6 H5 V9 H-1 C-3 9 -4 7 -4 4 V-4 C-4 -7 -3 -9 -1 -9 H5 V-6 H14 V-17 Z" />
+      </g>
+      <!-- A -->
+      <g transform="translate(192, 366) rotate(-5.5)">
+        <path d="M-6 -17 H6 L14 9 H17 V17 H3 V9 H5 L4 5 H-4 L-5 9 H-3 V17 H-17 V9 H-14 L-6 -17 Z M0 -8 L-3 0 H3 L0 -8 Z" />
+      </g>
+      <!-- P -->
+      <g transform="translate(224, 362) rotate(-2.5)">
+        <path d="M-14 -17 H5 C11 -17 15 -13 15 -6 C15 1 11 5 5 5 H-3 V9 H2 V17 H-14 V9 H-11 V-9 H-14 V-17 Z M-3 -9 V-2 H3 C5 -2 6 -3 6 -5.5 C6 -8 5 -9 3 -9 H-3 Z" />
+      </g>
+      <!-- I (Arch Peak) -->
+      <g transform="translate(253, 360)">
+        <path d="M-10 -17 H10 V-9 H5 V9 H10 V17 H-10 V9 H-5 V-9 H-10 V-17 Z" />
+      </g>
+      <!-- T -->
+      <g transform="translate(281, 362) rotate(2.5)">
+        <path d="M-14 -17 H14 V-5 H7 V-9 H5 V9 H9 V17 H-9 V9 H-5 V-9 H-7 V-5 H-14 V-17 Z" />
+      </g>
+      <!-- A -->
+      <g transform="translate(313, 366) rotate(5.5)">
+        <path d="M-6 -17 H6 L14 9 H17 V17 H3 V9 H5 L4 5 H-4 L-5 9 H-3 V17 H-17 V9 H-14 L-6 -17 Z M0 -8 L-3 0 H3 L0 -8 Z" />
+      </g>
+      <!-- L -->
+      <g transform="translate(347, 371) rotate(9)">
+        <path d="M-14 -17 H3 V-9 H-2 V8 H7 V1 H15 V17 H-14 V9 H-11 V-9 H-14 V-17 Z" />
+      </g>
+
+      <!-- ================= BOTTOM BLOCK ROW: "B L O O M" ================= -->
+      <!-- Left Decorative Double Speed-Ticks (=) -->
+      <rect x="110" y="411" width="17" height="5.5" rx="2.5" />
+      <rect x="115" y="420" width="12" height="5" rx="2.2" />
+
+      <!-- B (x: 133..181, y: 391..443) -->
+      <path d="M133 391 H166 C175 391 180 396 180 404 C180 410 176 414 171 416 C178 418 182 423 182 430 C182 438 176 443 166 443 H133 V434 H138 V400 H133 V391 Z M152 400 V412 H162 C165 412 167 410 167 406 C167 402 165 400 162 400 H152 Z M152 421 V434 H163 C166 434 168 432 168 427.5 C168 423 166 421 163 421 H152 Z" />
+
+      <!-- L (x: 185..228, y: 391..443) -->
+      <path d="M185 391 H210 V400 H204 V433 H217 V421 H228 V443 H185 V434 H190 V400 H185 V391 Z" />
+
+      <!-- O #1 (x: 231..276, y: 391..443) -->
+      <path d="M245 391 H262 C271 391 276 397 276 406 V428 C276 437 271 443 262 443 H245 C236 443 231 437 231 428 V406 C231 397 236 391 245 391 Z M246 402 C245 402 245 403 245 405 V429 C245 431 245 432 246 432 H261 C262 432 262 431 262 429 V405 C262 403 262 402 261 402 H246 Z" />
+
+      <!-- O #2 (x: 280..325, y: 391..443) -->
+      <path d="M294 391 H311 C320 391 325 397 325 406 V428 C325 437 320 443 311 443 H294 C285 443 280 437 280 428 V406 C280 397 285 391 294 391 Z M295 402 C294 402 294 403 294 405 V429 C294 431 294 432 295 432 H310 C311 432 311 431 311 429 V405 C311 403 311 402 310 402 H295 Z" />
+
+      <!-- M (x: 329..381, y: 391..443) -->
+      <path d="M329 391 H349 L355 415 L361 391 H381 V400 H377 V434 H381 V443 H363 V434 H366 V411 L358 437 H352 L344 411 V434 H347 V443 H329 V434 H333 V400 H329 V391 Z" />
+
+      <!-- Right Decorative Double Speed-Ticks (=) -->
+      <rect x="385" y="411" width="17" height="5.5" rx="2.5" />
+      <rect x="385" y="420" width="12" height="5" rx="2.2" />
+
+      <!-- Bottom Accent Diamond under O-M -->
+      <polygon points="326,448 330,452 326,456 322,452" />
+    </g>
+  </defs>
+
+  <!-- 1. Rounded App Icon Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Subtle Ambient Stars & Sparkles -->
+  <g fill="#fef08a" opacity="0.75">
+    <circle cx="96" cy="92" r="3" />
+    <circle cx="420" cy="88" r="2.5" />
+    <circle cx="72" cy="240" r="2.5" />
+    <circle cx="442" cy="250" r="3" />
+    <circle cx="105" cy="422" r="3" />
+    <circle cx="412" cy="418" r="2.5" />
+    <!-- 4-Point Star Sparkles -->
+    <path d="M138 64 L142 74 L152 78 L142 82 L138 92 L134 82 L124 78 L134 74 Z" fill="#fde047" />
+    <path d="M388 128 L391 136 L399 139 L391 142 L388 150 L385 142 L377 139 L385 136 Z" fill="#6ee7b7" />
+    <path d="M88 330 L91 337 L98 340 L91 343 L88 350 L85 343 L78 340 L85 337 Z" fill="#fde047" />
+  </g>
+
+  <!-- 2. Outer Emblem Ring -->
+  <circle
+    cx="256"
+    cy="256"
+    r="196"
+    fill="#062320"
+    stroke="url(#ringGrad)"
+    stroke-width="10"
+    filter="url(#dropShadow)"
+  />
+  <circle
+    cx="256"
+    cy="256"
+    r="180"
+    fill="none"
+    stroke="#34d399"
+    stroke-width="2"
+    stroke-dasharray="8 8"
+    opacity="0.45"
+  />
+
+  <!-- 3. Botanical Emerald Leaves Flanking the Blossom -->
+  <g stroke="#042f2e" stroke-width="4" stroke-linejoin="round">
+    <path d="M150 348 C98 330 82 282 118 262 C148 278 166 314 150 348 Z" fill="#10b981" />
+    <path d="M120 280 C134 302 142 324 148 344" stroke="#a7f3d0" stroke-width="3" fill="none" />
+    <path d="M362 348 C414 330 430 282 394 262 C364 278 346 314 362 348 Z" fill="#10b981" />
+    <path d="M392 280 C378 302 370 324 364 344" stroke="#a7f3d0" stroke-width="3" fill="none" />
+  </g>
+
+  <!-- 4. Four Golden Prosperity Coins ($ Symbol) -->
+  <!-- Top-Right Large Coin (Nectar Target) -->
+  <g filter="url(#dropShadow)" transform="translate(366, 206)">
+    <circle cx="0" cy="0" r="42" fill="url(#goldGrad)" stroke="#042f2e" stroke-width="5" />
+    <circle cx="0" cy="0" r="32" fill="none" stroke="url(#goldInnerGrad)" stroke-width="3" />
+    <text
+      x="0"
+      y="14"
+      text-anchor="middle"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-weight="900"
+      font-size="42"
+      fill="#78350f"
+    >$</text>
+    <text
+      x="-1"
+      y="12"
+      text-anchor="middle"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-weight="900"
+      font-size="42"
+      fill="#fef9c3"
+    >$</text>
+  </g>
+
+  <!-- Bottom-Left Coin -->
+  <g filter="url(#dropShadow)" transform="translate(132, 342)">
+    <circle cx="0" cy="0" r="30" fill="url(#goldGrad)" stroke="#042f2e" stroke-width="4.5" />
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#fef08a" stroke-width="2" opacity="0.8" />
+    <text
+      x="0"
+      y="10"
+      text-anchor="middle"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-weight="900"
+      font-size="28"
+      fill="#78350f"
+    >$</text>
+  </g>
+
+  <!-- Bottom-Right Coin -->
+  <g filter="url(#dropShadow)" transform="translate(376, 336)">
+    <circle cx="0" cy="0" r="32" fill="url(#goldGrad)" stroke="#042f2e" stroke-width="4.5" />
+    <circle cx="0" cy="0" r="23" fill="none" stroke="#fef08a" stroke-width="2" opacity="0.8" />
+    <text
+      x="0"
+      y="11"
+      text-anchor="middle"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-weight="900"
+      font-size="30"
+      fill="#78350f"
+    >$</text>
+  </g>
+
+  <!-- Far-Right Floating Mini Coin -->
+  <g filter="url(#dropShadow)" transform="translate(422, 290)">
+    <circle cx="0" cy="0" r="19" fill="url(#goldGrad)" stroke="#042f2e" stroke-width="4" />
+    <circle cx="0" cy="0" r="12" fill="none" stroke="#fef08a" stroke-width="1.5" opacity="0.8" />
+  </g>
+
+  <!-- 5. Blooming Coral-Rose Flower at Bottom Base -->
+  <g filter="url(#dropShadow)" stroke="#042f2e" stroke-width="5" stroke-linejoin="round">
+    <!-- Outer Left & Right Petals -->
+    <path
+      d="M256 365 C195 365 142 325 148 278 C184 272 224 300 256 355 Z"
+      fill="url(#petalSideGrad)"
+    />
+    <path
+      d="M256 365 C317 365 370 325 364 278 C328 272 288 300 256 355 Z"
+      fill="url(#petalSideGrad)"
+    />
+    <!-- Mid Left & Right Petals -->
+    <path
+      d="M256 362 C210 342 184 288 204 242 C232 256 248 296 256 352 Z"
+      fill="url(#petalGrad)"
+    />
+    <path
+      d="M256 362 C302 342 328 288 308 242 C280 256 264 296 256 352 Z"
+      fill="url(#petalGrad)"
+    />
+    <!-- Center Lotus Petal -->
+    <path
+      d="M256 366 C222 324 222 260 256 222 C290 260 290 324 256 366 Z"
+      fill="url(#petalGrad)"
+    />
+    <!-- Golden Nectar Core -->
+    <circle cx="256" cy="346" r="16" fill="url(#goldGrad)" stroke="#042f2e" stroke-width="4" />
+  </g>
+
+  <!-- 6. Turquoise & Emerald Hummingbird (Colibrí Capital Bloom) -->
+  <g filter="url(#dropShadow)" stroke="#042f2e" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Far Wing (Behind Head) -->
+    <path
+      d="M225 168 C196 116 142 84 96 86 C110 128 154 166 210 184 Z"
+      fill="#0d9488"
+    />
+
+    <!-- Sweeping Sculpted Tail Feathers -->
+    <path
+      d="M198 290 C168 346 154 398 164 436 C196 410 222 364 232 308 Z"
+      fill="#0284c7"
+    />
+    <path
+      d="M214 296 C198 356 196 408 212 442 C236 410 248 358 246 304 Z"
+      fill="url(#birdBodyGrad)"
+    />
+    <path
+      d="M232 296 C230 348 238 392 254 418 C266 386 264 342 254 296 Z"
+      fill="#34d399"
+    />
+
+    <!-- Main Arched Hummingbird Body & Head -->
+    <path
+      d="M286 152 C264 122 222 126 208 158 C196 186 184 234 196 286 C210 318 248 320 266 290 C284 260 288 216 274 190 C286 180 292 164 286 152 Z"
+      fill="url(#birdBodyGrad)"
+    />
+
+    <!-- Warm Cream & Gold Throat / Belly Patch -->
+    <path
+      d="M268 186 C284 214 280 258 260 286 C244 302 224 296 220 272 C216 240 236 198 268 186 Z"
+      fill="url(#bellyGrad)"
+    />
+
+    <!-- Long Graceful Golden Beak Reaching Toward the Coin -->
+    <path
+      d="M284 156 C318 162 348 172 372 184 C344 182 314 176 280 172 Z"
+      fill="url(#goldGrad)"
+    />
+
+    <!-- Multi-Layered Spread Wing (Left Foreground) -->
+    <!-- Upper Primary Wing Blade -->
+    <path
+      d="M222 194 C168 140 98 112 46 122 C66 168 128 206 206 218 Z"
+      fill="url(#wingUpperGrad)"
+    />
+    <!-- Second Feather Layer -->
+    <path
+      d="M216 210 C158 176 94 164 54 178 C82 214 142 232 208 234 Z"
+      fill="url(#wingMidGrad)"
+    />
+    <!-- Third Feather Layer -->
+    <path
+      d="M212 226 C162 208 108 208 76 224 C106 248 158 254 208 248 Z"
+      fill="#14b8a6"
+    />
+    <!-- Fourth Inner Feather Layer -->
+    <path
+      d="M210 240 C172 234 132 240 108 256 C138 272 178 270 212 258 Z"
+      fill="#0284c7"
+    />
+
+    <!-- Expressive Eye with Specular Glint -->
+    <circle cx="258" cy="158" r="10" fill="#042f2e" stroke="#fef08a" stroke-width="3" />
+    <circle cx="261" cy="155" r="3.5" fill="#ffffff" stroke="none" />
+  </g>
+
+  <!-- 7. "CAPITAL BLOOM" 3D Vintage Collegiate Wordmark (Exact Match to Uploaded Logo) -->
+  <g id="capital-bloom-logo-wordmark">
+    <!-- Layer A: Continuous Soft Cream Sticker Contour Around Entire 3D Wordmark -->
+    <use
+      href="#capital-bloom-glyphs"
+      xlink:href="#capital-bloom-glyphs"
+      x="6.5"
+      y="7.5"
+      fill="#F1DFDA"
+      stroke="#F1DFDA"
+      stroke-width="16"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+    />
+    <use
+      href="#capital-bloom-glyphs"
+      xlink:href="#capital-bloom-glyphs"
+      x="3"
+      y="3.5"
+      fill="#F1DFDA"
+      stroke="#F1DFDA"
+      stroke-width="16"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+    />
+    <use
+      href="#capital-bloom-glyphs"
+      xlink:href="#capital-bloom-glyphs"
+      x="0"
+      y="0"
+      fill="#F1DFDA"
+      stroke="#F1DFDA"
+      stroke-width="15"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+    />
+
+    <!-- Layer B: Solid 3D Block Shadow Extrusion (Down-Right in Deep Navy-Slate #10232A) -->
+    <use
+      href="#capital-bloom-glyphs"
+      xlink:href="#capital-bloom-glyphs"
+      x="6.5"
+      y="7.5"
+      fill="#10232A"
+      stroke="#10232A"
+      stroke-width="10.5"
+      stroke-linejoin="round"
+    />
+    <use
+      href="#capital-bloom-glyphs"
+      xlink:href="#capital-bloom-glyphs"
+      x="4.5"
+      y="5"
+      fill="#10232A"
+      stroke="#10232A"
+      stroke-width="10.5"
+      stroke-linejoin="round"
+    />
+    <use
+      href="#capital-bloom-glyphs"
+      xlink:href="#capital-bloom-glyphs"
+      x="2.5"
+      y="2.5"
+      fill="#10232A"
+      stroke="#10232A"
+      stroke-width="10.5"
+      stroke-linejoin="round"
+    />
+
+    <!-- Layer C: Crisp Dark Navy Inner Outline Around Letter Faces -->
+    <use
+      href="#capital-bloom-glyphs"
+      xlink:href="#capital-bloom-glyphs"
+      x="0"
+      y="0"
+      fill="#10232A"
+      stroke="#10232A"
+      stroke-width="9"
+      stroke-linejoin="round"
+    />
+
+    <!-- Layer D: Warm Cream-Blush Letter Face Fill -->
+    <use
+      href="#capital-bloom-glyphs"
+      xlink:href="#capital-bloom-glyphs"
+      x="0"
+      y="0"
+      fill="url(#wordmarkFaceGrad)"
+    />
+  </g>
+</svg>

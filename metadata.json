@@ -1,0 +1,6 @@
+{
+  "name": "Capital Bloom",
+  "description": "Plataforma interactiva, animada y minimalista de educación financiera gamificada basada en biomas de aprendizaje, repetición espaciada SM-2 y simuladores económicos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
